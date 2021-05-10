@@ -1,0 +1,82 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #424242;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-live{
+    width: 300px;
+    height: 600px;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+}
+
+.card-live .card-live-nav{
+    background-color: #323232;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.card-live-nav .card-live-nav-title{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.card-live-nav .card-live-nav-text{
+    font-size: 0.8rem;
+    color: #a2a2a2;
+    margin-bottom: 0.5rem;
+}
+
+.card-live-nav .card-live-nav-input{
+    width: 80%;
+    padding: 0.2rem 0.5rem;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.card-live .card-live-users{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card-live-users .user{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card-live-users .user:not(:last-child){
+    border-bottom: 1px solid #a2a2a2;
+}
+
+.user .user-img{
+    border-radius: 50%;
+    border: 1px solid #a2a2a2;
+}
+
+.user .user-info{
+    margin-left: 1rem;
+}
+
+.user-info .user-fullname{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.user-info .user-address{
+    font-size: 0.8rem;
+}
